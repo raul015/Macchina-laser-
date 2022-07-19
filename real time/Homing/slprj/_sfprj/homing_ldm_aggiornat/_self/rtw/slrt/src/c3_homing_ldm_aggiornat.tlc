@@ -1,0 +1,116 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   14 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "sfEvent"\
+      Description  "ActiveChartEvent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_active_c3_homing_ldm_aggiornat"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_c3_homing_ldm_aggiornat"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_Homing1"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Homing1"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_Homing2"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Homing2"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "dx"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "dx"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "v_sp_x"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "v_sp_x"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "a"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "a"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "v_sp_y"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "v_sp_y"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "ay"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "ay"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "dy"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "dy"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "bx"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "bx"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "by"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "by"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "inizio_traiettoria"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "inizio_traiettoria"\
+      SrcLocation  ""\
+    }\
+  }
+  %return ChartDataElements
+%endfunction

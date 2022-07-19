@@ -1,0 +1,25 @@
+%implements s1_b0_isnpk_Update "C"
+
+%function Update(block, system) Output
+%assign cfgTxt = ""
+%openfile cfgTxt
+%assign localVarDecl = ""
+/* Update for UnitDelay: '<S3>/UD' */
+homing_DW.UD_DSTATE = homing_B.TSamp;
+/* Update for UnitDelay: '<S5>/UD' */
+homing_DW.UD_DSTATE_a = homing_B.TSamp_e;
+/* Update for UnitDelay: '<S2>/UD' */
+homing_DW.UD_DSTATE_p = homing_B.TSamp_m;
+/* Update for UnitDelay: '<S4>/UD' */
+homing_DW.UD_DSTATE_e = homing_B.TSamp_d;
+%closefile cfgTxt
+%<cfgTxt>
+%endfunction
+%function UpdateFcnProtoType(block, system) Output
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void Update(\
+%assign comma = ""
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 3, fcnProtoType)>
+%endfunction

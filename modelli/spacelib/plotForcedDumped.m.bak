@@ -1,0 +1,61 @@
+function plotForcedDumped(M,C,K,F,vOmega)
+% prof. Paolo Righettini
+% Vibrazioni Meccaniche
+%function plotForced(M,K,F,vOmega)
+%diagramma della risposta forzata
+% vOmega: vettore delle pulsazioni nelle ordinate
+% F vettore delle forzanti (vettore colonna)
+A = solveForcedDumped(M,C,K,F,vOmega);
+n=size(M,1);
+
+ShowOnSameFigure(n,A,vOmega);
+%ShowOnDifferentFigure(n,A,vOmega);
+
+
+end
+
+function ShowOnSameFigure(n,A,vOmega)
+	figure; 
+    %set(gcf,'name',['coordinata ' num2str(j)]);
+	subplot(2,1,1); 
+vClr = ['r','g','b','c','k','m','y'];
+str='legend(';
+for j=1:n
+    semilogy(vOmega,abs(A(j,:)),vClr(j));
+    %plot(vOmega,abs(A(j,:)),vClr(j));
+    hold on
+    str=strcat(str,sprintf('''x_%d(t)''',j));
+    if( j < n ) 
+        str=strcat(str,','); 
+    else
+        str=strcat(str,');'); 
+    end
+end
+grid on;title('ampiezza');
+xlabel('[rad/s]');
+eval(str);
+
+subplot(2,1,2);
+for j=1:n
+    plot(vOmega,angle(A(j,:))*180/pi,vClr(j));
+    hold on
+end
+grid on;title('fase');
+ylabel('[°]');    
+xlabel('[rad/s]');
+eval(str)
+end
+
+function ShowOnDifferentFigure(n,A,vOmega)
+    for j=1:n
+        figure; set(gcf,'name',['coordinata ' num2str(j)]);
+        subplot(2,1,1); 
+        semilogy(vOmega,abs(A(j,:)));grid;title('ampiezza');
+        xlabel('[rad/s]');
+        subplot(2,1,2); 
+        plot(vOmega,angle(A(j,:))*180/pi);grid;title('fase');
+        ylabel('[°]');    
+        xlabel('[rad/s]');
+    end
+
+end

@@ -1,0 +1,88 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   10 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "sfEvent"\
+      Description  "ActiveChartEvent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_active_c1_homing"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_c1_homing"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_Homing"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Homing"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "dx"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "dx"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "v_sp_x"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "v_sp_x"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "v_sp_y"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "v_sp_y"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "dy"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "dy"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "bx"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "bx"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "by"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "by"\
+      SrcLocation  ""\
+    }\
+  }
+  %return ChartDataElements
+%endfunction

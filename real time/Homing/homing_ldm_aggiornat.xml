@@ -1,0 +1,1085 @@
+<?xml version="1.0" encoding="UTF-8"?><Root>
+      		<SubSystem>
+		<Name>Discrete Derivative4</Name>
+		<xPCName>homing_ldm_aggiornat/Discrete Derivative4</xPCName>
+		
+		
+            <block>
+            <blkName>TSamp</blkName>
+            <xpcblkName>Discrete Derivative4/TSamp</xpcblkName>
+            <SLblockPath>homing_ldm_aggiornat/Discrete Derivative4/TSamp</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>WtEt</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat/Discrete Derivative4</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>UD</blkName>
+            <xpcblkName>Discrete Derivative4/UD</xpcblkName>
+            <SLblockPath>homing_ldm_aggiornat/Discrete Derivative4/UD</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>ICPrevScaledInput</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat/Discrete Derivative4</SubSystemName>
+          </parameter>
+          </block>
+			  
+			  
+              <signal>
+              <sigName>Diff</sigName>
+              <xpcsigName>Discrete Derivative4/Diff</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat/Discrete Derivative4</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>TSamp</sigName>
+              <xpcsigName>Discrete Derivative4/TSamp</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat/Discrete Derivative4</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>UD</sigName>
+              <xpcsigName>Discrete Derivative4/UD</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat/Discrete Derivative4</SubSystemName>
+                
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+
+		</SubSystem>
+		<SubSystem>
+		<Name>Discrete Derivative5</Name>
+		<xPCName>homing_ldm_aggiornat/Discrete Derivative5</xPCName>
+		
+		
+            <block>
+            <blkName>TSamp</blkName>
+            <xpcblkName>Discrete Derivative5/TSamp</xpcblkName>
+            <SLblockPath>homing_ldm_aggiornat/Discrete Derivative5/TSamp</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>WtEt</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat/Discrete Derivative5</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>UD</blkName>
+            <xpcblkName>Discrete Derivative5/UD</xpcblkName>
+            <SLblockPath>homing_ldm_aggiornat/Discrete Derivative5/UD</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>ICPrevScaledInput</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat/Discrete Derivative5</SubSystemName>
+          </parameter>
+          </block>
+			  
+			  
+              <signal>
+              <sigName>Diff</sigName>
+              <xpcsigName>Discrete Derivative5/Diff</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat/Discrete Derivative5</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>TSamp</sigName>
+              <xpcsigName>Discrete Derivative5/TSamp</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat/Discrete Derivative5</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>UD</sigName>
+              <xpcsigName>Discrete Derivative5/UD</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat/Discrete Derivative5</SubSystemName>
+                
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+
+		</SubSystem>
+		<SubSystem>
+		<Name>Discrete Derivative6</Name>
+		<xPCName>homing_ldm_aggiornat/Discrete Derivative6</xPCName>
+		
+		
+            <block>
+            <blkName>TSamp</blkName>
+            <xpcblkName>Discrete Derivative6/TSamp</xpcblkName>
+            <SLblockPath>homing_ldm_aggiornat/Discrete Derivative6/TSamp</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>WtEt</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat/Discrete Derivative6</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>UD</blkName>
+            <xpcblkName>Discrete Derivative6/UD</xpcblkName>
+            <SLblockPath>homing_ldm_aggiornat/Discrete Derivative6/UD</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>ICPrevScaledInput</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat/Discrete Derivative6</SubSystemName>
+          </parameter>
+          </block>
+			  
+			  
+              <signal>
+              <sigName>Diff</sigName>
+              <xpcsigName>Discrete Derivative6/Diff</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat/Discrete Derivative6</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>TSamp</sigName>
+              <xpcsigName>Discrete Derivative6/TSamp</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat/Discrete Derivative6</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>UD</sigName>
+              <xpcsigName>Discrete Derivative6/UD</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat/Discrete Derivative6</SubSystemName>
+                
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+
+		</SubSystem>
+		<SubSystem>
+		<Name>Discrete Derivative7</Name>
+		<xPCName>homing_ldm_aggiornat/Discrete Derivative7</xPCName>
+		
+		
+            <block>
+            <blkName>TSamp</blkName>
+            <xpcblkName>Discrete Derivative7/TSamp</xpcblkName>
+            <SLblockPath>homing_ldm_aggiornat/Discrete Derivative7/TSamp</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>WtEt</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat/Discrete Derivative7</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>UD</blkName>
+            <xpcblkName>Discrete Derivative7/UD</xpcblkName>
+            <SLblockPath>homing_ldm_aggiornat/Discrete Derivative7/UD</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>ICPrevScaledInput</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat/Discrete Derivative7</SubSystemName>
+          </parameter>
+          </block>
+			  
+			  
+              <signal>
+              <sigName>Diff</sigName>
+              <xpcsigName>Discrete Derivative7/Diff</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat/Discrete Derivative7</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>TSamp</sigName>
+              <xpcsigName>Discrete Derivative7/TSamp</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat/Discrete Derivative7</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>UD</sigName>
+              <xpcsigName>Discrete Derivative7/UD</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat/Discrete Derivative7</SubSystemName>
+                
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+
+		</SubSystem>
+		<SubSystem>
+		<Name>Chart</Name>
+		<xPCName>homing_ldm_aggiornat/Chart</xPCName>
+		
+		
+
+		</SubSystem>
+
+      
+            <block>
+            <blkName>Discrete Derivative4</blkName>
+            <xpcblkName>Discrete Derivative4</xpcblkName>
+            <SLblockPath>homing_ldm_aggiornat/Discrete Derivative4</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>ICPrevScaledInput</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Discrete Derivative5</blkName>
+            <xpcblkName>Discrete Derivative5</xpcblkName>
+            <SLblockPath>homing_ldm_aggiornat/Discrete Derivative5</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>ICPrevScaledInput</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Discrete Derivative6</blkName>
+            <xpcblkName>Discrete Derivative6</xpcblkName>
+            <SLblockPath>homing_ldm_aggiornat/Discrete Derivative6</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>ICPrevScaledInput</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Discrete Derivative7</blkName>
+            <xpcblkName>Discrete Derivative7</xpcblkName>
+            <SLblockPath>homing_ldm_aggiornat/Discrete Derivative7</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>ICPrevScaledInput</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant6</blkName>
+            <xpcblkName>Constant6</xpcblkName>
+            <SLblockPath>homing_ldm_aggiornat/Constant6</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain1</blkName>
+            <xpcblkName>Gain1</xpcblkName>
+            <SLblockPath>homing_ldm_aggiornat/Gain1</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain10</blkName>
+            <xpcblkName>Gain10</xpcblkName>
+            <SLblockPath>homing_ldm_aggiornat/Gain10</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain11</blkName>
+            <xpcblkName>Gain11</xpcblkName>
+            <SLblockPath>homing_ldm_aggiornat/Gain11</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain12</blkName>
+            <xpcblkName>Gain12</xpcblkName>
+            <SLblockPath>homing_ldm_aggiornat/Gain12</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain13</blkName>
+            <xpcblkName>Gain13</xpcblkName>
+            <SLblockPath>homing_ldm_aggiornat/Gain13</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain2</blkName>
+            <xpcblkName>Gain2</xpcblkName>
+            <SLblockPath>homing_ldm_aggiornat/Gain2</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain3</blkName>
+            <xpcblkName>Gain3</xpcblkName>
+            <SLblockPath>homing_ldm_aggiornat/Gain3</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain5</blkName>
+            <xpcblkName>Gain5</xpcblkName>
+            <SLblockPath>homing_ldm_aggiornat/Gain5</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>PCI 6229 ENC 4</blkName>
+            <xpcblkName>PCI 6229 ENC 4</xpcblkName>
+            <SLblockPath>homing_ldm_aggiornat/PCI 6229 ENC 4</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P3</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P4</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P5</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P6</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P7</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P8</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P9</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P10</paramName>
+          <dim>[1, 2]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>PCI 6229 ENC 5</blkName>
+            <xpcblkName>PCI 6229 ENC 5</xpcblkName>
+            <SLblockPath>homing_ldm_aggiornat/PCI 6229 ENC 5</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P3</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P4</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P5</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P6</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P7</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P8</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P9</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P10</paramName>
+          <dim>[1, 2]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>PCI 6229 ENC 6</blkName>
+            <xpcblkName>PCI 6229 ENC 6</xpcblkName>
+            <SLblockPath>homing_ldm_aggiornat/PCI 6229 ENC 6</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P3</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P4</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P5</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P6</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P7</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P8</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P9</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P10</paramName>
+          <dim>[1, 2]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>PCI 6229 ENC 7</blkName>
+            <xpcblkName>PCI 6229 ENC 7</xpcblkName>
+            <SLblockPath>homing_ldm_aggiornat/PCI 6229 ENC 7</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P3</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P4</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P5</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P6</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P7</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P8</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P9</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P10</paramName>
+          <dim>[1, 2]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>PCI-6229 DA1</blkName>
+            <xpcblkName>PCI-6229 DA1</xpcblkName>
+            <SLblockPath>homing_ldm_aggiornat/PCI-6229 DA1</SLblockPath>
+            <isSrc>[0 1 0]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P3</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P4</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P5</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P6</paramName>
+          <dim>[1, 2]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P7</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>PCI-6229 DA2</blkName>
+            <xpcblkName>PCI-6229 DA2</xpcblkName>
+            <SLblockPath>homing_ldm_aggiornat/PCI-6229 DA2</SLblockPath>
+            <isSrc>[0 1 0]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P3</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P4</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P5</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P6</paramName>
+          <dim>[1, 2]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P7</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>PCI-6229 DI</blkName>
+            <xpcblkName>PCI-6229 DI</xpcblkName>
+            <SLblockPath>homing_ldm_aggiornat/PCI-6229 DI</SLblockPath>
+            <isSrc>[1 0 4]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 4]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P3</paramName>
+          <dim>[1, 2]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P4</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P5</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>PCI-6229 DO2</blkName>
+            <xpcblkName>PCI-6229 DO2</xpcblkName>
+            <SLblockPath>homing_ldm_aggiornat/PCI-6229 DO2</SLblockPath>
+            <isSrc>[0 1 0]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P3</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P4</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P5</paramName>
+          <dim>[1, 2]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P6</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P7</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+          </parameter>
+          </block>
+			  
+			  
+              <signal>
+              <sigName>Chart/p1</sigName>
+              <xpcsigName>Chart/p1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Chart/p2</sigName>
+              <xpcsigName>Chart/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Chart/p3</sigName>
+              <xpcsigName>Chart/p3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Chart/p4</sigName>
+              <xpcsigName>Chart/p4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Chart/p5</sigName>
+              <xpcsigName>Chart/p5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Chart/p6</sigName>
+              <xpcsigName>Chart/p6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Clock</sigName>
+              <xpcsigName>Clock</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Constant6</sigName>
+              <xpcsigName>Constant6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain1</sigName>
+              <xpcsigName>Gain1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain10</sigName>
+              <xpcsigName>Gain10</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+                
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain11</sigName>
+              <xpcsigName>Gain11</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+                
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain12</sigName>
+              <xpcsigName>Gain12</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+                <sigLabel>posizione motore y</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain13</sigName>
+              <xpcsigName>Gain13</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+                
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain2</sigName>
+              <xpcsigName>Gain2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain3</sigName>
+              <xpcsigName>Gain3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain5</sigName>
+              <xpcsigName>Gain5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>PCI 6229 ENC 4</sigName>
+              <xpcsigName>PCI 6229 ENC 4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+                
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>PCI 6229 ENC 5</sigName>
+              <xpcsigName>PCI 6229 ENC 5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+                <sigLabel>pozione motore y</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>PCI 6229 ENC 6</sigName>
+              <xpcsigName>PCI 6229 ENC 6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+                
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>PCI 6229 ENC 7</sigName>
+              <xpcsigName>PCI 6229 ENC 7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+                
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>PCI-6229 DI/p1</sigName>
+              <xpcsigName>PCI-6229 DI/p1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+                <sigLabel>fc x sx</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>PCI-6229 DI/p2</sigName>
+              <xpcsigName>PCI-6229 DI/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+                <sigLabel>fc x dx</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>PCI-6229 DI/p3</sigName>
+              <xpcsigName>PCI-6229 DI/p3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+                <sigLabel>fc y high</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>PCI-6229 DI/p4</sigName>
+              <xpcsigName>PCI-6229 DI/p4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+                <sigLabel>fc y down</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Sum1</sigName>
+              <xpcsigName>Sum1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Sum6</sigName>
+              <xpcsigName>Sum6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Dot Product1</sigName>
+              <xpcsigName>Dot Product1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Dot Product2</sigName>
+              <xpcsigName>Dot Product2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Dot Product7</sigName>
+              <xpcsigName>Dot Product7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Dot Product8</sigName>
+              <xpcsigName>Dot Product8</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>homing_ldm_aggiornat</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+
+</Root>

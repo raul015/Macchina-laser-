@@ -1,0 +1,55 @@
+Funzione Simulink per impostazione della legge di moto
+
+Evaluate_Trajectory( u(1) , u(2))
+input:
+u(1) = tempo simulazione
+u(2) = alzata/spostamento
+output:
+Y = vettore contente posizione velocità accelerazione
+Sono tutti valori di setup
+
+Il Main_traiettoria:
+Prima impostavamo noi una legge di moto, ora noi definiamo una traiettoria
+e di conseguenza ne definisco la legge di moto.
+NB: la legge di moto imposta aveva gli output di Evaluate_trajecory
+viene calcolato tutto prima della simulazione su simulink (noto a priori)
+
+Interpolazione_tempi:
+Funzione utilizzata per interpolare i tempi su matlab e simulink
+t_s = tempo simulink
+t_m = tempo matlab
+
+pospoli_XY_traiettoria:
+*)Controllo alternativo,ancora da testare per i tempi di simulazione troppo
+lunghi.
+
+* Problema risolto applicando nel simulink l'algoritmo risolutivo ODE15...
+*)  Un altro problema rinscontrato in questo file, che è stato letteralmente
+    copiato dal file pospoli_XY.slxc è che nel plot della retroazione sul
+    carrello asse y le etichette sono sbagliate:
+    Le etichette erano riferite ad etichette già utilizzate nella reotroaz.
+    del carrello quindi ho cambiato con quelle giuste prendendo come esemp.
+    l'asse x
+
+    sbagliate anche le etichette nella retroazione di posizione e velocità
+    y_ref cambiato per theta1_refy
+    yp_ref cambiato per theta1p_refy
+
+Testato la Evaluate_Trajectory e funziona, ottengo i grafici identici 
+al plot del matlab
+
+Il Main_traiettoria_ordinato:
+Ho ordinato il Main_traiettoria.m in modo tale che si capisse anche tramite
+il pdf nella cartella.
+
+Il Main_traiettoria_ordinato_strategia:
+In Main_traiettoria_ordinato noi usevamo una funzione legge di moto che ci
+restituiva informazioni tempolari di posizione,velocità e accelerazioni
+dell'ascissa curvilina...
+Adesso al posto di passare tale funzione dobbiamo implementare una strategia
+di pilotaggio.
+
+
+
+
+

@@ -1,0 +1,142 @@
+%implements s1_b0_isnpk_Terminate "C"
+
+%function Terminate(block, system) Output
+%assign cfgTxt = ""
+%openfile cfgTxt
+%assign localVarDecl = ""
+%assign tlcTerminateFcnOfS1B0 = OpaqueTLCBlockFcn("Terminate", 1, 0, 0, 4)
+%assign tlcTerminateFcnOfS1B1 = OpaqueTLCBlockFcn("Terminate", 1, 1, 0, 4)
+%assign tlcTerminateFcnOfS1B2 = OpaqueTLCBlockFcn("Terminate", 1, 2, 0, 4)
+%assign tlcTerminateFcnOfS1B3 = OpaqueTLCBlockFcn("Terminate", 1, 3, 0, 4)
+%assign tlcTerminateFcnOfS1B4 = OpaqueTLCBlockFcn("Terminate", 1, 4, 0, 4)
+%assign tlcTerminateFcnOfS1B5 = OpaqueTLCBlockFcn("Terminate", 1, 5, 0, 4)
+%assign tlcTerminateFcnOfS1B6 = OpaqueTLCBlockFcn("Terminate", 1, 6, 0, 4)
+%assign tlcTerminateFcnOfS1B7 = OpaqueTLCBlockFcn("Terminate", 1, 7, 0, 4)
+%assign tlcTerminateFcnOfS1B10 = OpaqueTLCBlockFcn("Terminate", 1, 10, 0, 4)
+%assign tlcTerminateFcnOfS1B11 = OpaqueTLCBlockFcn("Terminate", 1, 11, 0, 4)
+%assign tlcTerminateFcnOfS1B12 = OpaqueTLCBlockFcn("Terminate", 1, 12, 0, 4)
+%assign tlcTerminateFcnOfS1B13 = OpaqueTLCBlockFcn("Terminate", 1, 13, 0, 4)
+%assign tlcTerminateFcnOfS1B14 = OpaqueTLCBlockFcn("Terminate", 1, 14, 0, 4)
+%assign tlcTerminateFcnOfS1B15 = OpaqueTLCBlockFcn("Terminate", 1, 15, 0, 4)
+%assign tlcTerminateFcnOfS1B17 = OpaqueTLCBlockFcn("Terminate", 1, 17, 0, 4)
+%assign tlcTerminateFcnOfS1B18 = OpaqueTLCBlockFcn("Terminate", 1, 18, 0, 4)
+%assign tlcTerminateFcnOfS1B19 = OpaqueTLCBlockFcn("Terminate", 1, 19, 0, 4)
+%assign tlcCleanupRuntimeResourcesFcnOfS1B0 = OpaqueTLCBlockFcn("CleanupRuntimeResources", 1, 0, 0, 4)
+%assign tlcCleanupRuntimeResourcesFcnOfS1B1 = OpaqueTLCBlockFcn("CleanupRuntimeResources", 1, 1, 0, 4)
+%assign tlcCleanupRuntimeResourcesFcnOfS1B2 = OpaqueTLCBlockFcn("CleanupRuntimeResources", 1, 2, 0, 4)
+%assign tlcCleanupRuntimeResourcesFcnOfS1B10 = OpaqueTLCBlockFcn("CleanupRuntimeResources", 1, 10, 0, 4)
+%assign tlcCleanupRuntimeResourcesFcnOfS1B11 = OpaqueTLCBlockFcn("CleanupRuntimeResources", 1, 11, 0, 4)
+%assign tlcCleanupRuntimeResourcesFcnOfS1B12 = OpaqueTLCBlockFcn("CleanupRuntimeResources", 1, 12, 0, 4)
+%assign tlcCleanupRuntimeResourcesFcnOfS1B13 = OpaqueTLCBlockFcn("CleanupRuntimeResources", 1, 13, 0, 4)
+%assign tlcCleanupRuntimeResourcesFcnOfS1B17 = OpaqueTLCBlockFcn("CleanupRuntimeResources", 1, 17, 0, 4)
+%if !WHITE_SPACE(tlcTerminateFcnOfS1B0)
+/* Terminate for S-Function (dinipcim): '<Root>/PCI-6229 DI' */
+%<tlcTerminateFcnOfS1B0>\
+%endif
+%if !WHITE_SPACE(tlcTerminateFcnOfS1B1)
+/* Terminate for S-Function (encnipcim): '<Root>/PCI 6229 ENC 2' */
+%<tlcTerminateFcnOfS1B1>\
+%endif
+%if !WHITE_SPACE(tlcTerminateFcnOfS1B2)
+/* Terminate for S-Function (encnipcim): '<Root>/PCI 6229 ENC 3' */
+%<tlcTerminateFcnOfS1B2>\
+%endif
+%if !WHITE_SPACE(tlcTerminateFcnOfS1B3)
+/* Terminate for ToAsyncQueueBlock: '<Root>/HiddenToAsyncQueue_InsertedFor_Discrete Derivative1_at_outport_0' */
+%<tlcTerminateFcnOfS1B3>\
+%endif
+%if !WHITE_SPACE(tlcTerminateFcnOfS1B4)
+/* Terminate for ToAsyncQueueBlock: '<Root>/HiddenToAsyncQueue_InsertedFor_Discrete Derivative3_at_outport_0' */
+%<tlcTerminateFcnOfS1B4>\
+%endif
+%if !WHITE_SPACE(tlcTerminateFcnOfS1B5)
+/* Terminate for ToAsyncQueueBlock: '<Root>/HiddenToAsyncQueue_InsertedFor_Gain1_at_outport_0' */
+%<tlcTerminateFcnOfS1B5>\
+%endif
+%if !WHITE_SPACE(tlcTerminateFcnOfS1B6)
+/* Terminate for ToAsyncQueueBlock: '<Root>/HiddenToAsyncQueue_InsertedFor_Gain3_at_outport_0' */
+%<tlcTerminateFcnOfS1B6>\
+%endif
+%if !WHITE_SPACE(tlcTerminateFcnOfS1B7)
+/* Terminate for ToAsyncQueueBlock: '<Root>/HiddenToAsyncQueue_InsertedFor_PCI-6229 DI_at_outport_0' */
+%<tlcTerminateFcnOfS1B7>\
+%endif
+%if !WHITE_SPACE(tlcTerminateFcnOfS1B10)
+/* Terminate for S-Function (danipcim): '<Root>/PCI-6229 DA4' */
+%<tlcTerminateFcnOfS1B10>\
+%endif
+%if !WHITE_SPACE(tlcTerminateFcnOfS1B11)
+/* Terminate for S-Function (danipcim): '<Root>/PCI-6229 DA5' */
+%<tlcTerminateFcnOfS1B11>\
+%endif
+%if !WHITE_SPACE(tlcTerminateFcnOfS1B12)
+/* Terminate for S-Function (donipcim): '<Root>/PCI-6229 DO1' */
+%<tlcTerminateFcnOfS1B12>\
+%endif
+%if !WHITE_SPACE(tlcTerminateFcnOfS1B13)
+/* Terminate for S-Function (encnipcim): '<Root>/PCI 6229 ENC ' */
+%<tlcTerminateFcnOfS1B13>\
+%endif
+%if !WHITE_SPACE(tlcTerminateFcnOfS1B14)
+/* Terminate for ToAsyncQueueBlock: '<Root>/HiddenToAsyncQueue_InsertedFor_Discrete Derivative_at_outport_0' */
+%<tlcTerminateFcnOfS1B14>\
+%endif
+%if !WHITE_SPACE(tlcTerminateFcnOfS1B15)
+/* Terminate for ToAsyncQueueBlock: '<Root>/HiddenToAsyncQueue_InsertedFor_Gain_at_outport_0' */
+%<tlcTerminateFcnOfS1B15>\
+%endif
+%if !WHITE_SPACE(tlcTerminateFcnOfS1B17)
+/* Terminate for S-Function (encnipcim): '<Root>/PCI 6229 ENC 1' */
+%<tlcTerminateFcnOfS1B17>\
+%endif
+%if !WHITE_SPACE(tlcTerminateFcnOfS1B18)
+/* Terminate for ToAsyncQueueBlock: '<Root>/HiddenToAsyncQueue_InsertedFor_Discrete Derivative2_at_outport_0' */
+%<tlcTerminateFcnOfS1B18>\
+%endif
+%if !WHITE_SPACE(tlcTerminateFcnOfS1B19)
+/* Terminate for ToAsyncQueueBlock: '<Root>/HiddenToAsyncQueue_InsertedFor_Gain2_at_outport_0' */
+%<tlcTerminateFcnOfS1B19>\
+%endif
+%if !WHITE_SPACE(tlcCleanupRuntimeResourcesFcnOfS1B0)
+/* CleanupRuntimeResources for S-Function (dinipcim): '<Root>/PCI-6229 DI' */
+%<tlcCleanupRuntimeResourcesFcnOfS1B0>\
+%endif
+%if !WHITE_SPACE(tlcCleanupRuntimeResourcesFcnOfS1B1)
+/* CleanupRuntimeResources for S-Function (encnipcim): '<Root>/PCI 6229 ENC 2' */
+%<tlcCleanupRuntimeResourcesFcnOfS1B1>\
+%endif
+%if !WHITE_SPACE(tlcCleanupRuntimeResourcesFcnOfS1B2)
+/* CleanupRuntimeResources for S-Function (encnipcim): '<Root>/PCI 6229 ENC 3' */
+%<tlcCleanupRuntimeResourcesFcnOfS1B2>\
+%endif
+%if !WHITE_SPACE(tlcCleanupRuntimeResourcesFcnOfS1B10)
+/* CleanupRuntimeResources for S-Function (danipcim): '<Root>/PCI-6229 DA4' */
+%<tlcCleanupRuntimeResourcesFcnOfS1B10>\
+%endif
+%if !WHITE_SPACE(tlcCleanupRuntimeResourcesFcnOfS1B11)
+/* CleanupRuntimeResources for S-Function (danipcim): '<Root>/PCI-6229 DA5' */
+%<tlcCleanupRuntimeResourcesFcnOfS1B11>\
+%endif
+%if !WHITE_SPACE(tlcCleanupRuntimeResourcesFcnOfS1B12)
+/* CleanupRuntimeResources for S-Function (donipcim): '<Root>/PCI-6229 DO1' */
+%<tlcCleanupRuntimeResourcesFcnOfS1B12>\
+%endif
+%if !WHITE_SPACE(tlcCleanupRuntimeResourcesFcnOfS1B13)
+/* CleanupRuntimeResources for S-Function (encnipcim): '<Root>/PCI 6229 ENC ' */
+%<tlcCleanupRuntimeResourcesFcnOfS1B13>\
+%endif
+%if !WHITE_SPACE(tlcCleanupRuntimeResourcesFcnOfS1B17)
+/* CleanupRuntimeResources for S-Function (encnipcim): '<Root>/PCI 6229 ENC 1' */
+%<tlcCleanupRuntimeResourcesFcnOfS1B17>\
+%endif
+%closefile cfgTxt
+%<cfgTxt>
+%endfunction
+%function TerminateFcnProtoType(block, system) Output
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void Terminate(\
+%assign comma = ""
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 4, fcnProtoType)>
+%endfunction

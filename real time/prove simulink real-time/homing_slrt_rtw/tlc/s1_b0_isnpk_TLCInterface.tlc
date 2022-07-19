@@ -1,0 +1,3292 @@
+%implements s1_b0_isnpk_TLCInterface "C"
+
+%function getOutputAddr_1_0_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.fcxsx"
+%endfunction
+
+%function getOutput_1_0_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.fcxsx"
+%endfunction
+
+%function getOutputAddr_1_0_0_0_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.fcxdx"
+%endfunction
+
+%function getOutput_1_0_0_0_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.fcxdx"
+%endfunction
+
+%function getOutputAddr_1_0_0_0_2_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.fcyhigh"
+%endfunction
+
+%function getOutput_1_0_0_0_2_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.fcyhigh"
+%endfunction
+
+%function getOutputAddr_1_0_0_0_3_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.fcydown"
+%endfunction
+
+%function getOutput_1_0_0_0_3_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.fcydown"
+%endfunction
+
+%function getDWorkAddr_1_0_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.PCI6229DI_IWORK"
+%endfunction
+
+%function getDWork_1_0_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.PCI6229DI_IWORK"
+%endfunction
+
+%function getParamAddr_1_0_0_0_1_5(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DI_P1"
+%endfunction
+
+%function getParam_1_0_0_0_1_5(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DI_P1"
+%endfunction
+
+%function getParamAddr_1_0_0_0_1_7(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DI_P2"
+%endfunction
+
+%function getParam_1_0_0_0_1_7(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DI_P2"
+%endfunction
+
+%function getParamAddr_1_0_0_0_1_9(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DI_P3"
+%endfunction
+
+%function getParam_1_0_0_0_1_9(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DI_P3"
+%endfunction
+
+%function getParamAddr_1_0_0_0_1_11(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DI_P4"
+%endfunction
+
+%function getParam_1_0_0_0_1_11(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DI_P4"
+%endfunction
+
+%function getParamAddr_1_0_0_0_1_13(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DI_P5"
+%endfunction
+
+%function getParam_1_0_0_0_1_13(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DI_P5"
+%endfunction
+
+%function getOutputAddr_1_1_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.posizionecarrelloy"
+%endfunction
+
+%function getOutput_1_1_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.posizionecarrelloy"
+%endfunction
+
+%function getDWorkAddr_1_1_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.PCI6229ENC2_PWORK"
+%endfunction
+
+%function getDWork_1_1_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.PCI6229ENC2_PWORK"
+%endfunction
+
+%function getParamAddr_1_1_0_0_1_15(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC2_P1"
+%endfunction
+
+%function getParam_1_1_0_0_1_15(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC2_P1"
+%endfunction
+
+%function getParamAddr_1_1_0_0_1_17(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC2_P2"
+%endfunction
+
+%function getParam_1_1_0_0_1_17(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC2_P2"
+%endfunction
+
+%function getParamAddr_1_1_0_0_1_19(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC2_P3"
+%endfunction
+
+%function getParam_1_1_0_0_1_19(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC2_P3"
+%endfunction
+
+%function getParamAddr_1_1_0_0_1_21(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC2_P4"
+%endfunction
+
+%function getParam_1_1_0_0_1_21(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC2_P4"
+%endfunction
+
+%function getParamAddr_1_1_0_0_1_23(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC2_P5"
+%endfunction
+
+%function getParam_1_1_0_0_1_23(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC2_P5"
+%endfunction
+
+%function getParamAddr_1_1_0_0_1_25(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC2_P6"
+%endfunction
+
+%function getParam_1_1_0_0_1_25(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC2_P6"
+%endfunction
+
+%function getParamAddr_1_1_0_0_1_27(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC2_P7"
+%endfunction
+
+%function getParam_1_1_0_0_1_27(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC2_P7"
+%endfunction
+
+%function getParamAddr_1_1_0_0_1_29(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC2_P8"
+%endfunction
+
+%function getParam_1_1_0_0_1_29(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC2_P8"
+%endfunction
+
+%function getParamAddr_1_1_0_0_1_31(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC2_P9"
+%endfunction
+
+%function getParam_1_1_0_0_1_31(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC2_P9"
+%endfunction
+
+%function getParamAddr_1_1_0_0_1_33(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC2_P10"
+%endfunction
+
+%function getParam_1_1_0_0_1_33(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC2_P10"
+%endfunction
+
+%function getOutputAddr_1_2_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.posizionecarrellox"
+%endfunction
+
+%function getOutput_1_2_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.posizionecarrellox"
+%endfunction
+
+%function getDWorkAddr_1_2_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.PCI6229ENC3_PWORK"
+%endfunction
+
+%function getDWork_1_2_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.PCI6229ENC3_PWORK"
+%endfunction
+
+%function getParamAddr_1_2_0_0_1_36(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC3_P1"
+%endfunction
+
+%function getParam_1_2_0_0_1_36(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC3_P1"
+%endfunction
+
+%function getParamAddr_1_2_0_0_1_38(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC3_P2"
+%endfunction
+
+%function getParam_1_2_0_0_1_38(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC3_P2"
+%endfunction
+
+%function getParamAddr_1_2_0_0_1_40(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC3_P3"
+%endfunction
+
+%function getParam_1_2_0_0_1_40(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC3_P3"
+%endfunction
+
+%function getParamAddr_1_2_0_0_1_42(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC3_P4"
+%endfunction
+
+%function getParam_1_2_0_0_1_42(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC3_P4"
+%endfunction
+
+%function getParamAddr_1_2_0_0_1_44(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC3_P5"
+%endfunction
+
+%function getParam_1_2_0_0_1_44(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC3_P5"
+%endfunction
+
+%function getParamAddr_1_2_0_0_1_46(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC3_P6"
+%endfunction
+
+%function getParam_1_2_0_0_1_46(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC3_P6"
+%endfunction
+
+%function getParamAddr_1_2_0_0_1_48(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC3_P7"
+%endfunction
+
+%function getParam_1_2_0_0_1_48(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC3_P7"
+%endfunction
+
+%function getParamAddr_1_2_0_0_1_50(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC3_P8"
+%endfunction
+
+%function getParam_1_2_0_0_1_50(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC3_P8"
+%endfunction
+
+%function getParamAddr_1_2_0_0_1_52(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC3_P9"
+%endfunction
+
+%function getParam_1_2_0_0_1_52(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC3_P9"
+%endfunction
+
+%function getParamAddr_1_2_0_0_1_54(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC3_P10"
+%endfunction
+
+%function getParam_1_2_0_0_1_54(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC3_P10"
+%endfunction
+
+%function getInputAddr_1_10_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.Sum2"
+%endfunction
+
+%function getInput_1_10_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.Sum2"
+%endfunction
+
+%function getDWorkAddr_1_10_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.PCI6229DA4_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_10_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.PCI6229DA4_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_1_10_0_0_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.PCI6229DA4_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_10_0_0_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.PCI6229DA4_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_1_10_0_0_1_61(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA4_P1"
+%endfunction
+
+%function getParam_1_10_0_0_1_61(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA4_P1"
+%endfunction
+
+%function getParamAddr_1_10_0_0_1_63(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA4_P2"
+%endfunction
+
+%function getParam_1_10_0_0_1_63(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA4_P2"
+%endfunction
+
+%function getParamAddr_1_10_0_0_1_65(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA4_P3"
+%endfunction
+
+%function getParam_1_10_0_0_1_65(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA4_P3"
+%endfunction
+
+%function getParamAddr_1_10_0_0_1_67(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA4_P4"
+%endfunction
+
+%function getParam_1_10_0_0_1_67(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA4_P4"
+%endfunction
+
+%function getParamAddr_1_10_0_0_1_69(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA4_P5"
+%endfunction
+
+%function getParam_1_10_0_0_1_69(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA4_P5"
+%endfunction
+
+%function getParamAddr_1_10_0_0_1_71(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA4_P6"
+%endfunction
+
+%function getParam_1_10_0_0_1_71(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA4_P6"
+%endfunction
+
+%function getParamAddr_1_10_0_0_1_73(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA4_P7"
+%endfunction
+
+%function getParam_1_10_0_0_1_73(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA4_P7"
+%endfunction
+
+%function getInputAddr_1_11_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.Sum3"
+%endfunction
+
+%function getInput_1_11_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.Sum3"
+%endfunction
+
+%function getDWorkAddr_1_11_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.PCI6229DA5_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_11_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.PCI6229DA5_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_1_11_0_0_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.PCI6229DA5_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_11_0_0_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.PCI6229DA5_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_1_11_0_0_1_77(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA5_P1"
+%endfunction
+
+%function getParam_1_11_0_0_1_77(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA5_P1"
+%endfunction
+
+%function getParamAddr_1_11_0_0_1_79(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA5_P2"
+%endfunction
+
+%function getParam_1_11_0_0_1_79(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA5_P2"
+%endfunction
+
+%function getParamAddr_1_11_0_0_1_81(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA5_P3"
+%endfunction
+
+%function getParam_1_11_0_0_1_81(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA5_P3"
+%endfunction
+
+%function getParamAddr_1_11_0_0_1_83(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA5_P4"
+%endfunction
+
+%function getParam_1_11_0_0_1_83(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA5_P4"
+%endfunction
+
+%function getParamAddr_1_11_0_0_1_85(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA5_P5"
+%endfunction
+
+%function getParam_1_11_0_0_1_85(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA5_P5"
+%endfunction
+
+%function getParamAddr_1_11_0_0_1_87(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA5_P6"
+%endfunction
+
+%function getParam_1_11_0_0_1_87(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA5_P6"
+%endfunction
+
+%function getParamAddr_1_11_0_0_1_89(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA5_P7"
+%endfunction
+
+%function getParam_1_11_0_0_1_89(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA5_P7"
+%endfunction
+
+%function getInputAddr_1_12_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.Constant1"
+%endfunction
+
+%function getInput_1_12_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.Constant1"
+%endfunction
+
+%function getDWorkAddr_1_12_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.PCI6229DO1_IWORK"
+%endfunction
+
+%function getDWork_1_12_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.PCI6229DO1_IWORK"
+%endfunction
+
+%function getParamAddr_1_12_0_0_1_92(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DO1_P1"
+%endfunction
+
+%function getParam_1_12_0_0_1_92(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DO1_P1"
+%endfunction
+
+%function getParamAddr_1_12_0_0_1_94(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DO1_P2"
+%endfunction
+
+%function getParam_1_12_0_0_1_94(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DO1_P2"
+%endfunction
+
+%function getParamAddr_1_12_0_0_1_96(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DO1_P3"
+%endfunction
+
+%function getParam_1_12_0_0_1_96(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DO1_P3"
+%endfunction
+
+%function getParamAddr_1_12_0_0_1_98(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DO1_P4"
+%endfunction
+
+%function getParam_1_12_0_0_1_98(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DO1_P4"
+%endfunction
+
+%function getParamAddr_1_12_0_0_1_100(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DO1_P5"
+%endfunction
+
+%function getParam_1_12_0_0_1_100(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DO1_P5"
+%endfunction
+
+%function getParamAddr_1_12_0_0_1_102(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DO1_P6"
+%endfunction
+
+%function getParam_1_12_0_0_1_102(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DO1_P6"
+%endfunction
+
+%function getParamAddr_1_12_0_0_1_104(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DO1_P7"
+%endfunction
+
+%function getParam_1_12_0_0_1_104(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DO1_P7"
+%endfunction
+
+%function getOutputAddr_1_13_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.posizionemotorex"
+%endfunction
+
+%function getOutput_1_13_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.posizionemotorex"
+%endfunction
+
+%function getDWorkAddr_1_13_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.PCI6229ENC_PWORK"
+%endfunction
+
+%function getDWork_1_13_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.PCI6229ENC_PWORK"
+%endfunction
+
+%function getParamAddr_1_13_0_0_1_106(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC_P1"
+%endfunction
+
+%function getParam_1_13_0_0_1_106(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC_P1"
+%endfunction
+
+%function getParamAddr_1_13_0_0_1_108(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC_P2"
+%endfunction
+
+%function getParam_1_13_0_0_1_108(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC_P2"
+%endfunction
+
+%function getParamAddr_1_13_0_0_1_110(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC_P3"
+%endfunction
+
+%function getParam_1_13_0_0_1_110(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC_P3"
+%endfunction
+
+%function getParamAddr_1_13_0_0_1_112(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC_P4"
+%endfunction
+
+%function getParam_1_13_0_0_1_112(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC_P4"
+%endfunction
+
+%function getParamAddr_1_13_0_0_1_114(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC_P5"
+%endfunction
+
+%function getParam_1_13_0_0_1_114(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC_P5"
+%endfunction
+
+%function getParamAddr_1_13_0_0_1_116(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC_P6"
+%endfunction
+
+%function getParam_1_13_0_0_1_116(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC_P6"
+%endfunction
+
+%function getParamAddr_1_13_0_0_1_118(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC_P7"
+%endfunction
+
+%function getParam_1_13_0_0_1_118(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC_P7"
+%endfunction
+
+%function getParamAddr_1_13_0_0_1_120(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC_P8"
+%endfunction
+
+%function getParam_1_13_0_0_1_120(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC_P8"
+%endfunction
+
+%function getParamAddr_1_13_0_0_1_122(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC_P9"
+%endfunction
+
+%function getParam_1_13_0_0_1_122(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC_P9"
+%endfunction
+
+%function getParamAddr_1_13_0_0_1_124(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC_P10"
+%endfunction
+
+%function getParam_1_13_0_0_1_124(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC_P10"
+%endfunction
+
+%function getOutputAddr_1_17_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.pozionemotorey"
+%endfunction
+
+%function getOutput_1_17_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.pozionemotorey"
+%endfunction
+
+%function getDWorkAddr_1_17_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.PCI6229ENC1_PWORK"
+%endfunction
+
+%function getDWork_1_17_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.PCI6229ENC1_PWORK"
+%endfunction
+
+%function getParamAddr_1_17_0_0_1_128(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC1_P1"
+%endfunction
+
+%function getParam_1_17_0_0_1_128(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC1_P1"
+%endfunction
+
+%function getParamAddr_1_17_0_0_1_130(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC1_P2"
+%endfunction
+
+%function getParam_1_17_0_0_1_130(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC1_P2"
+%endfunction
+
+%function getParamAddr_1_17_0_0_1_132(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC1_P3"
+%endfunction
+
+%function getParam_1_17_0_0_1_132(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC1_P3"
+%endfunction
+
+%function getParamAddr_1_17_0_0_1_134(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC1_P4"
+%endfunction
+
+%function getParam_1_17_0_0_1_134(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC1_P4"
+%endfunction
+
+%function getParamAddr_1_17_0_0_1_136(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC1_P5"
+%endfunction
+
+%function getParam_1_17_0_0_1_136(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC1_P5"
+%endfunction
+
+%function getParamAddr_1_17_0_0_1_138(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC1_P6"
+%endfunction
+
+%function getParam_1_17_0_0_1_138(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC1_P6"
+%endfunction
+
+%function getParamAddr_1_17_0_0_1_140(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC1_P7"
+%endfunction
+
+%function getParam_1_17_0_0_1_140(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC1_P7"
+%endfunction
+
+%function getParamAddr_1_17_0_0_1_142(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC1_P8"
+%endfunction
+
+%function getParam_1_17_0_0_1_142(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC1_P8"
+%endfunction
+
+%function getParamAddr_1_17_0_0_1_144(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC1_P9"
+%endfunction
+
+%function getParam_1_17_0_0_1_144(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC1_P9"
+%endfunction
+
+%function getParamAddr_1_17_0_0_1_146(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC1_P10"
+%endfunction
+
+%function getParam_1_17_0_0_1_146(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC1_P10"
+%endfunction
+
+%function getInputAddr_1_3_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.Diff"
+%endfunction
+
+%function getInput_1_3_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.Diff"
+%endfunction
+
+%function getDWorkAddr_1_3_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.HiddenToAsyncQueue_InsertedFor_" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_3_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.HiddenToAsyncQueue_InsertedFor_" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_1_4_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.Diff_p"
+%endfunction
+
+%function getInput_1_4_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.Diff_p"
+%endfunction
+
+%function getDWorkAddr_1_4_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.HiddenToAsyncQueue_InsertedFo_i" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_4_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.HiddenToAsyncQueue_InsertedFo_i" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_1_5_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.posizionecarrelloy_n"
+%endfunction
+
+%function getInput_1_5_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.posizionecarrelloy_n"
+%endfunction
+
+%function getDWorkAddr_1_5_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.HiddenToAsyncQueue_InsertedFo_m" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_5_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.HiddenToAsyncQueue_InsertedFo_m" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_1_6_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.posizionecarrellox_n"
+%endfunction
+
+%function getInput_1_6_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.posizionecarrellox_n"
+%endfunction
+
+%function getDWorkAddr_1_6_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.HiddenToAsyncQueue_InsertedFo_c" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_6_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.HiddenToAsyncQueue_InsertedFo_c" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_1_7_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.fcxsx"
+%endfunction
+
+%function getInput_1_7_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.fcxsx"
+%endfunction
+
+%function getDWorkAddr_1_7_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.HiddenToAsyncQueue_InsertedFo_a" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_7_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.HiddenToAsyncQueue_InsertedFo_a" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_1_14_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.Diff_a"
+%endfunction
+
+%function getInput_1_14_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.Diff_a"
+%endfunction
+
+%function getDWorkAddr_1_14_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.HiddenToAsyncQueue_InsertedFo_g" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_14_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.HiddenToAsyncQueue_InsertedFo_g" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_1_15_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.posizionemotorex_n"
+%endfunction
+
+%function getInput_1_15_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.posizionemotorex_n"
+%endfunction
+
+%function getDWorkAddr_1_15_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.HiddenToAsyncQueue_InsertedF_cl" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_15_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.HiddenToAsyncQueue_InsertedF_cl" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_1_16_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.posizionemotorex_n"
+%endfunction
+
+%function getInput_1_16_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.posizionemotorex_n"
+%endfunction
+
+%function getInputAddr_1_16_0_0_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.Diff_a"
+%endfunction
+
+%function getInput_1_16_0_0_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.Diff_a"
+%endfunction
+
+%function getDWorkAddr_1_16_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.Scope_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_16_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.Scope_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_1_18_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.Diff_i"
+%endfunction
+
+%function getInput_1_18_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.Diff_i"
+%endfunction
+
+%function getDWorkAddr_1_18_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.HiddenToAsyncQueue_InsertedFo_b" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_18_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.HiddenToAsyncQueue_InsertedFo_b" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_1_19_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.posizionemotorey"
+%endfunction
+
+%function getInput_1_19_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.posizionemotorey"
+%endfunction
+
+%function getDWorkAddr_1_19_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.HiddenToAsyncQueue_InsertedF_mt" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_19_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.HiddenToAsyncQueue_InsertedF_mt" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_1_20_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.posizionemotorey"
+%endfunction
+
+%function getInput_1_20_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.posizionemotorey"
+%endfunction
+
+%function getInputAddr_1_20_0_0_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.Diff_i"
+%endfunction
+
+%function getInput_1_20_0_0_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.Diff_i"
+%endfunction
+
+%function getDWorkAddr_1_20_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.Scope2_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_20_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.Scope2_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_1_0_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.fcxsx"
+%endfunction
+
+%function getOutput_1_0_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.fcxsx"
+%endfunction
+
+%function getOutputAddr_1_0_0_2_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.fcxdx"
+%endfunction
+
+%function getOutput_1_0_0_2_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.fcxdx"
+%endfunction
+
+%function getOutputAddr_1_0_0_2_2_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.fcyhigh"
+%endfunction
+
+%function getOutput_1_0_0_2_2_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.fcyhigh"
+%endfunction
+
+%function getOutputAddr_1_0_0_2_3_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.fcydown"
+%endfunction
+
+%function getOutput_1_0_0_2_3_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.fcydown"
+%endfunction
+
+%function getDWorkAddr_1_0_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.PCI6229DI_IWORK"
+%endfunction
+
+%function getDWork_1_0_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.PCI6229DI_IWORK"
+%endfunction
+
+%function getParamAddr_1_0_0_2_1_5(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DI_P1"
+%endfunction
+
+%function getParam_1_0_0_2_1_5(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DI_P1"
+%endfunction
+
+%function getParamAddr_1_0_0_2_1_7(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DI_P2"
+%endfunction
+
+%function getParam_1_0_0_2_1_7(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DI_P2"
+%endfunction
+
+%function getParamAddr_1_0_0_2_1_9(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DI_P3"
+%endfunction
+
+%function getParam_1_0_0_2_1_9(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DI_P3"
+%endfunction
+
+%function getParamAddr_1_0_0_2_1_11(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DI_P4"
+%endfunction
+
+%function getParam_1_0_0_2_1_11(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DI_P4"
+%endfunction
+
+%function getParamAddr_1_0_0_2_1_13(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DI_P5"
+%endfunction
+
+%function getParam_1_0_0_2_1_13(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DI_P5"
+%endfunction
+
+%function getOutputAddr_1_1_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.posizionecarrelloy"
+%endfunction
+
+%function getOutput_1_1_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.posizionecarrelloy"
+%endfunction
+
+%function getDWorkAddr_1_1_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.PCI6229ENC2_PWORK"
+%endfunction
+
+%function getDWork_1_1_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.PCI6229ENC2_PWORK"
+%endfunction
+
+%function getParamAddr_1_1_0_2_1_15(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC2_P1"
+%endfunction
+
+%function getParam_1_1_0_2_1_15(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC2_P1"
+%endfunction
+
+%function getParamAddr_1_1_0_2_1_17(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC2_P2"
+%endfunction
+
+%function getParam_1_1_0_2_1_17(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC2_P2"
+%endfunction
+
+%function getParamAddr_1_1_0_2_1_19(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC2_P3"
+%endfunction
+
+%function getParam_1_1_0_2_1_19(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC2_P3"
+%endfunction
+
+%function getParamAddr_1_1_0_2_1_21(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC2_P4"
+%endfunction
+
+%function getParam_1_1_0_2_1_21(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC2_P4"
+%endfunction
+
+%function getParamAddr_1_1_0_2_1_23(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC2_P5"
+%endfunction
+
+%function getParam_1_1_0_2_1_23(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC2_P5"
+%endfunction
+
+%function getParamAddr_1_1_0_2_1_25(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC2_P6"
+%endfunction
+
+%function getParam_1_1_0_2_1_25(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC2_P6"
+%endfunction
+
+%function getParamAddr_1_1_0_2_1_27(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC2_P7"
+%endfunction
+
+%function getParam_1_1_0_2_1_27(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC2_P7"
+%endfunction
+
+%function getParamAddr_1_1_0_2_1_29(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC2_P8"
+%endfunction
+
+%function getParam_1_1_0_2_1_29(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC2_P8"
+%endfunction
+
+%function getParamAddr_1_1_0_2_1_31(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC2_P9"
+%endfunction
+
+%function getParam_1_1_0_2_1_31(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC2_P9"
+%endfunction
+
+%function getParamAddr_1_1_0_2_1_33(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC2_P10"
+%endfunction
+
+%function getParam_1_1_0_2_1_33(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC2_P10"
+%endfunction
+
+%function getOutputAddr_1_2_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.posizionecarrellox"
+%endfunction
+
+%function getOutput_1_2_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.posizionecarrellox"
+%endfunction
+
+%function getDWorkAddr_1_2_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.PCI6229ENC3_PWORK"
+%endfunction
+
+%function getDWork_1_2_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.PCI6229ENC3_PWORK"
+%endfunction
+
+%function getParamAddr_1_2_0_2_1_36(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC3_P1"
+%endfunction
+
+%function getParam_1_2_0_2_1_36(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC3_P1"
+%endfunction
+
+%function getParamAddr_1_2_0_2_1_38(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC3_P2"
+%endfunction
+
+%function getParam_1_2_0_2_1_38(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC3_P2"
+%endfunction
+
+%function getParamAddr_1_2_0_2_1_40(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC3_P3"
+%endfunction
+
+%function getParam_1_2_0_2_1_40(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC3_P3"
+%endfunction
+
+%function getParamAddr_1_2_0_2_1_42(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC3_P4"
+%endfunction
+
+%function getParam_1_2_0_2_1_42(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC3_P4"
+%endfunction
+
+%function getParamAddr_1_2_0_2_1_44(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC3_P5"
+%endfunction
+
+%function getParam_1_2_0_2_1_44(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC3_P5"
+%endfunction
+
+%function getParamAddr_1_2_0_2_1_46(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC3_P6"
+%endfunction
+
+%function getParam_1_2_0_2_1_46(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC3_P6"
+%endfunction
+
+%function getParamAddr_1_2_0_2_1_48(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC3_P7"
+%endfunction
+
+%function getParam_1_2_0_2_1_48(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC3_P7"
+%endfunction
+
+%function getParamAddr_1_2_0_2_1_50(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC3_P8"
+%endfunction
+
+%function getParam_1_2_0_2_1_50(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC3_P8"
+%endfunction
+
+%function getParamAddr_1_2_0_2_1_52(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC3_P9"
+%endfunction
+
+%function getParam_1_2_0_2_1_52(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC3_P9"
+%endfunction
+
+%function getParamAddr_1_2_0_2_1_54(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC3_P10"
+%endfunction
+
+%function getParam_1_2_0_2_1_54(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC3_P10"
+%endfunction
+
+%function getInputAddr_1_3_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.Diff"
+%endfunction
+
+%function getInput_1_3_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.Diff"
+%endfunction
+
+%function getDWorkAddr_1_3_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.HiddenToAsyncQueue_InsertedFor_" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_3_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.HiddenToAsyncQueue_InsertedFor_" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_1_4_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.Diff_p"
+%endfunction
+
+%function getInput_1_4_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.Diff_p"
+%endfunction
+
+%function getDWorkAddr_1_4_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.HiddenToAsyncQueue_InsertedFo_i" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_4_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.HiddenToAsyncQueue_InsertedFo_i" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_1_5_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.posizionecarrelloy_n"
+%endfunction
+
+%function getInput_1_5_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.posizionecarrelloy_n"
+%endfunction
+
+%function getDWorkAddr_1_5_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.HiddenToAsyncQueue_InsertedFo_m" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_5_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.HiddenToAsyncQueue_InsertedFo_m" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_1_6_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.posizionecarrellox_n"
+%endfunction
+
+%function getInput_1_6_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.posizionecarrellox_n"
+%endfunction
+
+%function getDWorkAddr_1_6_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.HiddenToAsyncQueue_InsertedFo_c" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_6_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.HiddenToAsyncQueue_InsertedFo_c" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_1_7_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.fcxsx"
+%endfunction
+
+%function getInput_1_7_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.fcxsx"
+%endfunction
+
+%function getDWorkAddr_1_7_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.HiddenToAsyncQueue_InsertedFo_a" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_7_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.HiddenToAsyncQueue_InsertedFo_a" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_1_8_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.Clock"
+%endfunction
+
+%function getInput_1_8_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.Clock"
+%endfunction
+
+%function getOutputAddr_1_8_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.InterpretedMATLABFunction" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutput_1_8_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.InterpretedMATLABFunction" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_1_10_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.Sum2"
+%endfunction
+
+%function getInput_1_10_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.Sum2"
+%endfunction
+
+%function getDWorkAddr_1_10_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.PCI6229DA4_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_10_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.PCI6229DA4_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_1_10_0_2_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.PCI6229DA4_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_10_0_2_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.PCI6229DA4_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_1_10_0_2_1_61(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA4_P1"
+%endfunction
+
+%function getParam_1_10_0_2_1_61(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA4_P1"
+%endfunction
+
+%function getParamAddr_1_10_0_2_1_63(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA4_P2"
+%endfunction
+
+%function getParam_1_10_0_2_1_63(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA4_P2"
+%endfunction
+
+%function getParamAddr_1_10_0_2_1_65(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA4_P3"
+%endfunction
+
+%function getParam_1_10_0_2_1_65(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA4_P3"
+%endfunction
+
+%function getParamAddr_1_10_0_2_1_67(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA4_P4"
+%endfunction
+
+%function getParam_1_10_0_2_1_67(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA4_P4"
+%endfunction
+
+%function getParamAddr_1_10_0_2_1_69(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA4_P5"
+%endfunction
+
+%function getParam_1_10_0_2_1_69(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA4_P5"
+%endfunction
+
+%function getParamAddr_1_10_0_2_1_71(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA4_P6"
+%endfunction
+
+%function getParam_1_10_0_2_1_71(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA4_P6"
+%endfunction
+
+%function getParamAddr_1_10_0_2_1_73(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA4_P7"
+%endfunction
+
+%function getParam_1_10_0_2_1_73(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA4_P7"
+%endfunction
+
+%function getInputAddr_1_11_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.Sum3"
+%endfunction
+
+%function getInput_1_11_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.Sum3"
+%endfunction
+
+%function getDWorkAddr_1_11_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.PCI6229DA5_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_11_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.PCI6229DA5_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_1_11_0_2_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.PCI6229DA5_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_11_0_2_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.PCI6229DA5_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_1_11_0_2_1_77(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA5_P1"
+%endfunction
+
+%function getParam_1_11_0_2_1_77(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA5_P1"
+%endfunction
+
+%function getParamAddr_1_11_0_2_1_79(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA5_P2"
+%endfunction
+
+%function getParam_1_11_0_2_1_79(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA5_P2"
+%endfunction
+
+%function getParamAddr_1_11_0_2_1_81(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA5_P3"
+%endfunction
+
+%function getParam_1_11_0_2_1_81(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA5_P3"
+%endfunction
+
+%function getParamAddr_1_11_0_2_1_83(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA5_P4"
+%endfunction
+
+%function getParam_1_11_0_2_1_83(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA5_P4"
+%endfunction
+
+%function getParamAddr_1_11_0_2_1_85(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA5_P5"
+%endfunction
+
+%function getParam_1_11_0_2_1_85(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA5_P5"
+%endfunction
+
+%function getParamAddr_1_11_0_2_1_87(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA5_P6"
+%endfunction
+
+%function getParam_1_11_0_2_1_87(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA5_P6"
+%endfunction
+
+%function getParamAddr_1_11_0_2_1_89(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA5_P7"
+%endfunction
+
+%function getParam_1_11_0_2_1_89(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA5_P7"
+%endfunction
+
+%function getInputAddr_1_12_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.Constant1"
+%endfunction
+
+%function getInput_1_12_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.Constant1"
+%endfunction
+
+%function getDWorkAddr_1_12_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.PCI6229DO1_IWORK"
+%endfunction
+
+%function getDWork_1_12_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.PCI6229DO1_IWORK"
+%endfunction
+
+%function getParamAddr_1_12_0_2_1_92(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DO1_P1"
+%endfunction
+
+%function getParam_1_12_0_2_1_92(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DO1_P1"
+%endfunction
+
+%function getParamAddr_1_12_0_2_1_94(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DO1_P2"
+%endfunction
+
+%function getParam_1_12_0_2_1_94(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DO1_P2"
+%endfunction
+
+%function getParamAddr_1_12_0_2_1_96(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DO1_P3"
+%endfunction
+
+%function getParam_1_12_0_2_1_96(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DO1_P3"
+%endfunction
+
+%function getParamAddr_1_12_0_2_1_98(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DO1_P4"
+%endfunction
+
+%function getParam_1_12_0_2_1_98(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DO1_P4"
+%endfunction
+
+%function getParamAddr_1_12_0_2_1_100(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DO1_P5"
+%endfunction
+
+%function getParam_1_12_0_2_1_100(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DO1_P5"
+%endfunction
+
+%function getParamAddr_1_12_0_2_1_102(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DO1_P6"
+%endfunction
+
+%function getParam_1_12_0_2_1_102(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DO1_P6"
+%endfunction
+
+%function getParamAddr_1_12_0_2_1_104(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DO1_P7"
+%endfunction
+
+%function getParam_1_12_0_2_1_104(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DO1_P7"
+%endfunction
+
+%function getOutputAddr_1_13_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.posizionemotorex"
+%endfunction
+
+%function getOutput_1_13_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.posizionemotorex"
+%endfunction
+
+%function getDWorkAddr_1_13_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.PCI6229ENC_PWORK"
+%endfunction
+
+%function getDWork_1_13_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.PCI6229ENC_PWORK"
+%endfunction
+
+%function getParamAddr_1_13_0_2_1_106(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC_P1"
+%endfunction
+
+%function getParam_1_13_0_2_1_106(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC_P1"
+%endfunction
+
+%function getParamAddr_1_13_0_2_1_108(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC_P2"
+%endfunction
+
+%function getParam_1_13_0_2_1_108(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC_P2"
+%endfunction
+
+%function getParamAddr_1_13_0_2_1_110(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC_P3"
+%endfunction
+
+%function getParam_1_13_0_2_1_110(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC_P3"
+%endfunction
+
+%function getParamAddr_1_13_0_2_1_112(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC_P4"
+%endfunction
+
+%function getParam_1_13_0_2_1_112(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC_P4"
+%endfunction
+
+%function getParamAddr_1_13_0_2_1_114(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC_P5"
+%endfunction
+
+%function getParam_1_13_0_2_1_114(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC_P5"
+%endfunction
+
+%function getParamAddr_1_13_0_2_1_116(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC_P6"
+%endfunction
+
+%function getParam_1_13_0_2_1_116(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC_P6"
+%endfunction
+
+%function getParamAddr_1_13_0_2_1_118(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC_P7"
+%endfunction
+
+%function getParam_1_13_0_2_1_118(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC_P7"
+%endfunction
+
+%function getParamAddr_1_13_0_2_1_120(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC_P8"
+%endfunction
+
+%function getParam_1_13_0_2_1_120(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC_P8"
+%endfunction
+
+%function getParamAddr_1_13_0_2_1_122(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC_P9"
+%endfunction
+
+%function getParam_1_13_0_2_1_122(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC_P9"
+%endfunction
+
+%function getParamAddr_1_13_0_2_1_124(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC_P10"
+%endfunction
+
+%function getParam_1_13_0_2_1_124(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC_P10"
+%endfunction
+
+%function getInputAddr_1_14_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.Diff_a"
+%endfunction
+
+%function getInput_1_14_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.Diff_a"
+%endfunction
+
+%function getDWorkAddr_1_14_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.HiddenToAsyncQueue_InsertedFo_g" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_14_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.HiddenToAsyncQueue_InsertedFo_g" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_1_15_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.posizionemotorex_n"
+%endfunction
+
+%function getInput_1_15_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.posizionemotorex_n"
+%endfunction
+
+%function getDWorkAddr_1_15_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.HiddenToAsyncQueue_InsertedF_cl" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_15_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.HiddenToAsyncQueue_InsertedF_cl" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_1_16_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.posizionemotorex_n"
+%endfunction
+
+%function getInput_1_16_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.posizionemotorex_n"
+%endfunction
+
+%function getInputAddr_1_16_0_2_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.Diff_a"
+%endfunction
+
+%function getInput_1_16_0_2_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.Diff_a"
+%endfunction
+
+%function getDWorkAddr_1_16_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.Scope_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_16_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.Scope_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_1_17_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.pozionemotorey"
+%endfunction
+
+%function getOutput_1_17_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.pozionemotorey"
+%endfunction
+
+%function getDWorkAddr_1_17_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.PCI6229ENC1_PWORK"
+%endfunction
+
+%function getDWork_1_17_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.PCI6229ENC1_PWORK"
+%endfunction
+
+%function getParamAddr_1_17_0_2_1_128(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC1_P1"
+%endfunction
+
+%function getParam_1_17_0_2_1_128(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC1_P1"
+%endfunction
+
+%function getParamAddr_1_17_0_2_1_130(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC1_P2"
+%endfunction
+
+%function getParam_1_17_0_2_1_130(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC1_P2"
+%endfunction
+
+%function getParamAddr_1_17_0_2_1_132(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC1_P3"
+%endfunction
+
+%function getParam_1_17_0_2_1_132(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC1_P3"
+%endfunction
+
+%function getParamAddr_1_17_0_2_1_134(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC1_P4"
+%endfunction
+
+%function getParam_1_17_0_2_1_134(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC1_P4"
+%endfunction
+
+%function getParamAddr_1_17_0_2_1_136(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC1_P5"
+%endfunction
+
+%function getParam_1_17_0_2_1_136(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC1_P5"
+%endfunction
+
+%function getParamAddr_1_17_0_2_1_138(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC1_P6"
+%endfunction
+
+%function getParam_1_17_0_2_1_138(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC1_P6"
+%endfunction
+
+%function getParamAddr_1_17_0_2_1_140(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC1_P7"
+%endfunction
+
+%function getParam_1_17_0_2_1_140(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC1_P7"
+%endfunction
+
+%function getParamAddr_1_17_0_2_1_142(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC1_P8"
+%endfunction
+
+%function getParam_1_17_0_2_1_142(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC1_P8"
+%endfunction
+
+%function getParamAddr_1_17_0_2_1_144(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC1_P9"
+%endfunction
+
+%function getParam_1_17_0_2_1_144(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC1_P9"
+%endfunction
+
+%function getParamAddr_1_17_0_2_1_146(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC1_P10"
+%endfunction
+
+%function getParam_1_17_0_2_1_146(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC1_P10"
+%endfunction
+
+%function getInputAddr_1_18_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.Diff_i"
+%endfunction
+
+%function getInput_1_18_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.Diff_i"
+%endfunction
+
+%function getDWorkAddr_1_18_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.HiddenToAsyncQueue_InsertedFo_b" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_18_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.HiddenToAsyncQueue_InsertedFo_b" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_1_19_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.posizionemotorey"
+%endfunction
+
+%function getInput_1_19_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.posizionemotorey"
+%endfunction
+
+%function getDWorkAddr_1_19_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.HiddenToAsyncQueue_InsertedF_mt" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_19_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.HiddenToAsyncQueue_InsertedF_mt" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_1_20_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.posizionemotorey"
+%endfunction
+
+%function getInput_1_20_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.posizionemotorey"
+%endfunction
+
+%function getInputAddr_1_20_0_2_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.Diff_i"
+%endfunction
+
+%function getInput_1_20_0_2_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.Diff_i"
+%endfunction
+
+%function getDWorkAddr_1_20_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.Scope2_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_20_0_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.Scope2_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_1_0_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.fcxsx"
+%endfunction
+
+%function getOutput_1_0_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.fcxsx"
+%endfunction
+
+%function getOutputAddr_1_0_0_4_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.fcxdx"
+%endfunction
+
+%function getOutput_1_0_0_4_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.fcxdx"
+%endfunction
+
+%function getOutputAddr_1_0_0_4_2_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.fcyhigh"
+%endfunction
+
+%function getOutput_1_0_0_4_2_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.fcyhigh"
+%endfunction
+
+%function getOutputAddr_1_0_0_4_3_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.fcydown"
+%endfunction
+
+%function getOutput_1_0_0_4_3_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.fcydown"
+%endfunction
+
+%function getDWorkAddr_1_0_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.PCI6229DI_IWORK"
+%endfunction
+
+%function getDWork_1_0_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.PCI6229DI_IWORK"
+%endfunction
+
+%function getParamAddr_1_0_0_4_1_5(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DI_P1"
+%endfunction
+
+%function getParam_1_0_0_4_1_5(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DI_P1"
+%endfunction
+
+%function getParamAddr_1_0_0_4_1_7(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DI_P2"
+%endfunction
+
+%function getParam_1_0_0_4_1_7(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DI_P2"
+%endfunction
+
+%function getParamAddr_1_0_0_4_1_9(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DI_P3"
+%endfunction
+
+%function getParam_1_0_0_4_1_9(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DI_P3"
+%endfunction
+
+%function getParamAddr_1_0_0_4_1_11(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DI_P4"
+%endfunction
+
+%function getParam_1_0_0_4_1_11(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DI_P4"
+%endfunction
+
+%function getParamAddr_1_0_0_4_1_13(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DI_P5"
+%endfunction
+
+%function getParam_1_0_0_4_1_13(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DI_P5"
+%endfunction
+
+%function getOutputAddr_1_1_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.posizionecarrelloy"
+%endfunction
+
+%function getOutput_1_1_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.posizionecarrelloy"
+%endfunction
+
+%function getDWorkAddr_1_1_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.PCI6229ENC2_PWORK"
+%endfunction
+
+%function getDWork_1_1_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.PCI6229ENC2_PWORK"
+%endfunction
+
+%function getParamAddr_1_1_0_4_1_15(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC2_P1"
+%endfunction
+
+%function getParam_1_1_0_4_1_15(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC2_P1"
+%endfunction
+
+%function getParamAddr_1_1_0_4_1_17(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC2_P2"
+%endfunction
+
+%function getParam_1_1_0_4_1_17(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC2_P2"
+%endfunction
+
+%function getParamAddr_1_1_0_4_1_19(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC2_P3"
+%endfunction
+
+%function getParam_1_1_0_4_1_19(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC2_P3"
+%endfunction
+
+%function getParamAddr_1_1_0_4_1_21(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC2_P4"
+%endfunction
+
+%function getParam_1_1_0_4_1_21(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC2_P4"
+%endfunction
+
+%function getParamAddr_1_1_0_4_1_23(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC2_P5"
+%endfunction
+
+%function getParam_1_1_0_4_1_23(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC2_P5"
+%endfunction
+
+%function getParamAddr_1_1_0_4_1_25(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC2_P6"
+%endfunction
+
+%function getParam_1_1_0_4_1_25(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC2_P6"
+%endfunction
+
+%function getParamAddr_1_1_0_4_1_27(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC2_P7"
+%endfunction
+
+%function getParam_1_1_0_4_1_27(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC2_P7"
+%endfunction
+
+%function getParamAddr_1_1_0_4_1_29(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC2_P8"
+%endfunction
+
+%function getParam_1_1_0_4_1_29(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC2_P8"
+%endfunction
+
+%function getParamAddr_1_1_0_4_1_31(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC2_P9"
+%endfunction
+
+%function getParam_1_1_0_4_1_31(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC2_P9"
+%endfunction
+
+%function getParamAddr_1_1_0_4_1_33(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC2_P10"
+%endfunction
+
+%function getParam_1_1_0_4_1_33(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC2_P10"
+%endfunction
+
+%function getOutputAddr_1_2_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.posizionecarrellox"
+%endfunction
+
+%function getOutput_1_2_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.posizionecarrellox"
+%endfunction
+
+%function getDWorkAddr_1_2_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.PCI6229ENC3_PWORK"
+%endfunction
+
+%function getDWork_1_2_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.PCI6229ENC3_PWORK"
+%endfunction
+
+%function getParamAddr_1_2_0_4_1_36(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC3_P1"
+%endfunction
+
+%function getParam_1_2_0_4_1_36(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC3_P1"
+%endfunction
+
+%function getParamAddr_1_2_0_4_1_38(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC3_P2"
+%endfunction
+
+%function getParam_1_2_0_4_1_38(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC3_P2"
+%endfunction
+
+%function getParamAddr_1_2_0_4_1_40(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC3_P3"
+%endfunction
+
+%function getParam_1_2_0_4_1_40(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC3_P3"
+%endfunction
+
+%function getParamAddr_1_2_0_4_1_42(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC3_P4"
+%endfunction
+
+%function getParam_1_2_0_4_1_42(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC3_P4"
+%endfunction
+
+%function getParamAddr_1_2_0_4_1_44(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC3_P5"
+%endfunction
+
+%function getParam_1_2_0_4_1_44(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC3_P5"
+%endfunction
+
+%function getParamAddr_1_2_0_4_1_46(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC3_P6"
+%endfunction
+
+%function getParam_1_2_0_4_1_46(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC3_P6"
+%endfunction
+
+%function getParamAddr_1_2_0_4_1_48(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC3_P7"
+%endfunction
+
+%function getParam_1_2_0_4_1_48(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC3_P7"
+%endfunction
+
+%function getParamAddr_1_2_0_4_1_50(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC3_P8"
+%endfunction
+
+%function getParam_1_2_0_4_1_50(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC3_P8"
+%endfunction
+
+%function getParamAddr_1_2_0_4_1_52(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC3_P9"
+%endfunction
+
+%function getParam_1_2_0_4_1_52(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC3_P9"
+%endfunction
+
+%function getParamAddr_1_2_0_4_1_54(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC3_P10"
+%endfunction
+
+%function getParam_1_2_0_4_1_54(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC3_P10"
+%endfunction
+
+%function getInputAddr_1_3_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.Diff"
+%endfunction
+
+%function getInput_1_3_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.Diff"
+%endfunction
+
+%function getDWorkAddr_1_3_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.HiddenToAsyncQueue_InsertedFor_" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_3_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.HiddenToAsyncQueue_InsertedFor_" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_1_4_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.Diff_p"
+%endfunction
+
+%function getInput_1_4_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.Diff_p"
+%endfunction
+
+%function getDWorkAddr_1_4_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.HiddenToAsyncQueue_InsertedFo_i" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_4_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.HiddenToAsyncQueue_InsertedFo_i" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_1_5_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.posizionecarrelloy_n"
+%endfunction
+
+%function getInput_1_5_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.posizionecarrelloy_n"
+%endfunction
+
+%function getDWorkAddr_1_5_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.HiddenToAsyncQueue_InsertedFo_m" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_5_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.HiddenToAsyncQueue_InsertedFo_m" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_1_6_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.posizionecarrellox_n"
+%endfunction
+
+%function getInput_1_6_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.posizionecarrellox_n"
+%endfunction
+
+%function getDWorkAddr_1_6_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.HiddenToAsyncQueue_InsertedFo_c" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_6_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.HiddenToAsyncQueue_InsertedFo_c" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_1_7_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.fcxsx"
+%endfunction
+
+%function getInput_1_7_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.fcxsx"
+%endfunction
+
+%function getDWorkAddr_1_7_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.HiddenToAsyncQueue_InsertedFo_a" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_7_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.HiddenToAsyncQueue_InsertedFo_a" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_1_10_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.Sum2"
+%endfunction
+
+%function getInput_1_10_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.Sum2"
+%endfunction
+
+%function getDWorkAddr_1_10_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.PCI6229DA4_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_10_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.PCI6229DA4_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_1_10_0_4_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.PCI6229DA4_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_10_0_4_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.PCI6229DA4_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_1_10_0_4_1_61(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA4_P1"
+%endfunction
+
+%function getParam_1_10_0_4_1_61(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA4_P1"
+%endfunction
+
+%function getParamAddr_1_10_0_4_1_63(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA4_P2"
+%endfunction
+
+%function getParam_1_10_0_4_1_63(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA4_P2"
+%endfunction
+
+%function getParamAddr_1_10_0_4_1_65(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA4_P3"
+%endfunction
+
+%function getParam_1_10_0_4_1_65(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA4_P3"
+%endfunction
+
+%function getParamAddr_1_10_0_4_1_67(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA4_P4"
+%endfunction
+
+%function getParam_1_10_0_4_1_67(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA4_P4"
+%endfunction
+
+%function getParamAddr_1_10_0_4_1_69(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA4_P5"
+%endfunction
+
+%function getParam_1_10_0_4_1_69(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA4_P5"
+%endfunction
+
+%function getParamAddr_1_10_0_4_1_71(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA4_P6"
+%endfunction
+
+%function getParam_1_10_0_4_1_71(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA4_P6"
+%endfunction
+
+%function getParamAddr_1_10_0_4_1_73(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA4_P7"
+%endfunction
+
+%function getParam_1_10_0_4_1_73(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA4_P7"
+%endfunction
+
+%function getInputAddr_1_11_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.Sum3"
+%endfunction
+
+%function getInput_1_11_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.Sum3"
+%endfunction
+
+%function getDWorkAddr_1_11_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.PCI6229DA5_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_11_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.PCI6229DA5_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_1_11_0_4_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.PCI6229DA5_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_11_0_4_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.PCI6229DA5_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_1_11_0_4_1_77(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA5_P1"
+%endfunction
+
+%function getParam_1_11_0_4_1_77(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA5_P1"
+%endfunction
+
+%function getParamAddr_1_11_0_4_1_79(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA5_P2"
+%endfunction
+
+%function getParam_1_11_0_4_1_79(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA5_P2"
+%endfunction
+
+%function getParamAddr_1_11_0_4_1_81(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA5_P3"
+%endfunction
+
+%function getParam_1_11_0_4_1_81(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA5_P3"
+%endfunction
+
+%function getParamAddr_1_11_0_4_1_83(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA5_P4"
+%endfunction
+
+%function getParam_1_11_0_4_1_83(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA5_P4"
+%endfunction
+
+%function getParamAddr_1_11_0_4_1_85(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA5_P5"
+%endfunction
+
+%function getParam_1_11_0_4_1_85(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA5_P5"
+%endfunction
+
+%function getParamAddr_1_11_0_4_1_87(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA5_P6"
+%endfunction
+
+%function getParam_1_11_0_4_1_87(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA5_P6"
+%endfunction
+
+%function getParamAddr_1_11_0_4_1_89(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DA5_P7"
+%endfunction
+
+%function getParam_1_11_0_4_1_89(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DA5_P7"
+%endfunction
+
+%function getInputAddr_1_12_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.Constant1"
+%endfunction
+
+%function getInput_1_12_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.Constant1"
+%endfunction
+
+%function getDWorkAddr_1_12_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.PCI6229DO1_IWORK"
+%endfunction
+
+%function getDWork_1_12_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.PCI6229DO1_IWORK"
+%endfunction
+
+%function getParamAddr_1_12_0_4_1_92(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DO1_P1"
+%endfunction
+
+%function getParam_1_12_0_4_1_92(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DO1_P1"
+%endfunction
+
+%function getParamAddr_1_12_0_4_1_94(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DO1_P2"
+%endfunction
+
+%function getParam_1_12_0_4_1_94(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DO1_P2"
+%endfunction
+
+%function getParamAddr_1_12_0_4_1_96(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DO1_P3"
+%endfunction
+
+%function getParam_1_12_0_4_1_96(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DO1_P3"
+%endfunction
+
+%function getParamAddr_1_12_0_4_1_98(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DO1_P4"
+%endfunction
+
+%function getParam_1_12_0_4_1_98(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DO1_P4"
+%endfunction
+
+%function getParamAddr_1_12_0_4_1_100(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DO1_P5"
+%endfunction
+
+%function getParam_1_12_0_4_1_100(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DO1_P5"
+%endfunction
+
+%function getParamAddr_1_12_0_4_1_102(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DO1_P6"
+%endfunction
+
+%function getParam_1_12_0_4_1_102(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DO1_P6"
+%endfunction
+
+%function getParamAddr_1_12_0_4_1_104(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229DO1_P7"
+%endfunction
+
+%function getParam_1_12_0_4_1_104(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229DO1_P7"
+%endfunction
+
+%function getOutputAddr_1_13_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.posizionemotorex"
+%endfunction
+
+%function getOutput_1_13_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.posizionemotorex"
+%endfunction
+
+%function getDWorkAddr_1_13_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.PCI6229ENC_PWORK"
+%endfunction
+
+%function getDWork_1_13_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.PCI6229ENC_PWORK"
+%endfunction
+
+%function getParamAddr_1_13_0_4_1_106(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC_P1"
+%endfunction
+
+%function getParam_1_13_0_4_1_106(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC_P1"
+%endfunction
+
+%function getParamAddr_1_13_0_4_1_108(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC_P2"
+%endfunction
+
+%function getParam_1_13_0_4_1_108(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC_P2"
+%endfunction
+
+%function getParamAddr_1_13_0_4_1_110(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC_P3"
+%endfunction
+
+%function getParam_1_13_0_4_1_110(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC_P3"
+%endfunction
+
+%function getParamAddr_1_13_0_4_1_112(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC_P4"
+%endfunction
+
+%function getParam_1_13_0_4_1_112(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC_P4"
+%endfunction
+
+%function getParamAddr_1_13_0_4_1_114(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC_P5"
+%endfunction
+
+%function getParam_1_13_0_4_1_114(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC_P5"
+%endfunction
+
+%function getParamAddr_1_13_0_4_1_116(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC_P6"
+%endfunction
+
+%function getParam_1_13_0_4_1_116(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC_P6"
+%endfunction
+
+%function getParamAddr_1_13_0_4_1_118(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC_P7"
+%endfunction
+
+%function getParam_1_13_0_4_1_118(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC_P7"
+%endfunction
+
+%function getParamAddr_1_13_0_4_1_120(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC_P8"
+%endfunction
+
+%function getParam_1_13_0_4_1_120(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC_P8"
+%endfunction
+
+%function getParamAddr_1_13_0_4_1_122(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC_P9"
+%endfunction
+
+%function getParam_1_13_0_4_1_122(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC_P9"
+%endfunction
+
+%function getParamAddr_1_13_0_4_1_124(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC_P10"
+%endfunction
+
+%function getParam_1_13_0_4_1_124(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC_P10"
+%endfunction
+
+%function getInputAddr_1_14_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.Diff_a"
+%endfunction
+
+%function getInput_1_14_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.Diff_a"
+%endfunction
+
+%function getDWorkAddr_1_14_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.HiddenToAsyncQueue_InsertedFo_g" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_14_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.HiddenToAsyncQueue_InsertedFo_g" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_1_15_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.posizionemotorex_n"
+%endfunction
+
+%function getInput_1_15_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.posizionemotorex_n"
+%endfunction
+
+%function getDWorkAddr_1_15_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.HiddenToAsyncQueue_InsertedF_cl" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_15_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.HiddenToAsyncQueue_InsertedF_cl" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_1_17_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.pozionemotorey"
+%endfunction
+
+%function getOutput_1_17_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.pozionemotorey"
+%endfunction
+
+%function getDWorkAddr_1_17_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.PCI6229ENC1_PWORK"
+%endfunction
+
+%function getDWork_1_17_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.PCI6229ENC1_PWORK"
+%endfunction
+
+%function getParamAddr_1_17_0_4_1_128(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC1_P1"
+%endfunction
+
+%function getParam_1_17_0_4_1_128(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC1_P1"
+%endfunction
+
+%function getParamAddr_1_17_0_4_1_130(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC1_P2"
+%endfunction
+
+%function getParam_1_17_0_4_1_130(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC1_P2"
+%endfunction
+
+%function getParamAddr_1_17_0_4_1_132(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC1_P3"
+%endfunction
+
+%function getParam_1_17_0_4_1_132(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC1_P3"
+%endfunction
+
+%function getParamAddr_1_17_0_4_1_134(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC1_P4"
+%endfunction
+
+%function getParam_1_17_0_4_1_134(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC1_P4"
+%endfunction
+
+%function getParamAddr_1_17_0_4_1_136(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC1_P5"
+%endfunction
+
+%function getParam_1_17_0_4_1_136(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC1_P5"
+%endfunction
+
+%function getParamAddr_1_17_0_4_1_138(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC1_P6"
+%endfunction
+
+%function getParam_1_17_0_4_1_138(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC1_P6"
+%endfunction
+
+%function getParamAddr_1_17_0_4_1_140(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC1_P7"
+%endfunction
+
+%function getParam_1_17_0_4_1_140(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC1_P7"
+%endfunction
+
+%function getParamAddr_1_17_0_4_1_142(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC1_P8"
+%endfunction
+
+%function getParam_1_17_0_4_1_142(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC1_P8"
+%endfunction
+
+%function getParamAddr_1_17_0_4_1_144(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC1_P9"
+%endfunction
+
+%function getParam_1_17_0_4_1_144(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC1_P9"
+%endfunction
+
+%function getParamAddr_1_17_0_4_1_146(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_P.PCI6229ENC1_P10"
+%endfunction
+
+%function getParam_1_17_0_4_1_146(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_P.PCI6229ENC1_P10"
+%endfunction
+
+%function getInputAddr_1_18_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.Diff_i"
+%endfunction
+
+%function getInput_1_18_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.Diff_i"
+%endfunction
+
+%function getDWorkAddr_1_18_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.HiddenToAsyncQueue_InsertedFo_b" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_18_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.HiddenToAsyncQueue_InsertedFo_b" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_1_19_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_B.posizionemotorey"
+%endfunction
+
+%function getInput_1_19_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_B.posizionemotorey"
+%endfunction
+
+%function getDWorkAddr_1_19_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&homing_DW.HiddenToAsyncQueue_InsertedF_mt" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_19_0_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "homing_DW.HiddenToAsyncQueue_InsertedF_mt" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+

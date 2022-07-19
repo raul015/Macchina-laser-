@@ -1,0 +1,33 @@
+%implements s1_b0_isnpk_SystemInitialize "C"
+
+%function SystemInitialize(block, system) Output
+%assign cfgTxt = ""
+%openfile cfgTxt
+%assign localVarDecl = ""
+%<SLibInsertAsyncTaskInitializeCode(system)>
+%<SLibWriteMachineInitialize()>
+/* InitializeConditions for UnitDelay: '<S3>/UD' */
+homing_DW.UD_DSTATE = homing_P.DiscreteDerivative1_ICPrevScale;
+/* InitializeConditions for UnitDelay: '<S5>/UD' */
+homing_DW.UD_DSTATE_a = homing_P.DiscreteDerivative3_ICPrevScale;
+/* InitializeConditions for UnitDelay: '<S2>/UD' */
+homing_DW.UD_DSTATE_p = homing_P.DiscreteDerivative_ICPrevScaled;
+/* InitializeConditions for UnitDelay: '<S4>/UD' */
+homing_DW.UD_DSTATE_e = homing_P.DiscreteDerivative2_ICPrevScale;
+/* SystemInitialize for Chart: '<Root>/Chart' */
+homing_DW.sfEvent = homing_CALL_EVENT;
+homing_DW.is_Homing = homing_IN_NO_ACTIVE_CHILD;
+homing_DW.is_active_c3_homing = 0U;
+homing_DW.is_c3_homing = homing_IN_NO_ACTIVE_CHILD;
+%<SLibInsertInitPeriodicCStatesFcn(system)>
+%closefile cfgTxt
+%<cfgTxt>
+%endfunction
+%function SystemInitializeFcnProtoType(block, system) Output
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void SystemInitialize(\
+%assign comma = ""
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 1, fcnProtoType)>
+%endfunction

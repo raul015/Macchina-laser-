@@ -1,0 +1,36 @@
+Retroazione prendendo in considerazione la posizione angolare del motore, sia retroazione dell posizione
+del carrello. Dal punto di vista del sistema rigido non cambia niente. Dal punto di vista del sistema
+cedevole scopro che c'è una differena del comportamento del sistema.
+L'obiettivo in tutti questi sistemi è garantire la legge di moto del carrello.
+Un conto è garantirla considerando la retroazione nella posizione angolare dell'albero del
+ motore oppure direttamente la posizione del carrello.
+Volendo potevo inserire l'equazione differenziale x'' = differnza coppia /j. Però va bene anche la
+fdt.
+Differenza che osservo non sul sistema rigido è che:
+Posizione imposta sul carrello con la posizione del carrello.
+Sul sistema rigido posso prendere direttamente la posizione del carrello. Direttamente nel senso che
+nel sistema rigido posso prendere la velocità del motore moltiplicarlo per tau ed ottenere
+la velocità del carrello, tale velocità e la corrispondere posizione (integro) li porto
+direttamente nel nodo sommatore. 
+Oppure prendo velocità motore, moltiplico per tau e lo porto nel nodo sommatore.
+Dal punto di vista del sistema rigido non ho differenza perchè c'è solo un fattore di scala
+quindi non varia nemmeno il valore della costante del regolatore. La differenza la vedo nel
+sistema reale.
+Sul sistema reale prendo/ misuro la velocità del motore e poi dalla velocità del motore faccio 
+una stima della velocità e della posizione del carrello, sempre considerando i rapporti di trasmissione
+La differenza che si vedrà è quella per cui posizione e velocità non saranno esattamente
+quelle definite dal prodotto del rapporto di tramissione. Appunto perchè di mezzo ci sono
+le cedevolezze che generano una variazione della posizione del motore e quindi vedrò che sarà differente
+prendere come segnale di retroazione diretamente la velocità e posizione del carrello piuttosto
+che prendere direttamente velocità e posizione del motore. Appunto perchè non c'è un legame rigido
+tra i due parti albero motore e carrello, appunto ho le cedevolezze.
+Adesso stiamo dando direttamente la legge di moto del carrello, poi la differenza sarà anche
+questa... Quando si metteranno insieme i due assi, quando poi si dovrà determinare in base
+alla figura geometrica che voglio realizzare quale saranno le leggi di moto che devo applicare
+ai singoli assi alla fine si farà l'analisi cinematica inversa del sistema per trovare come 
+devono essere mossi gli assi e dall'altro i motori. Obiettivo fornire per ogni asse la legge 
+di moto del motore stesso. Lo stesso concetto può essere fatto prendendo la legge di moto
+del motore quindi cosa posso fare? posso prendere come segnale di retroazione velocità e posizione
+stessa del rotore,però poi quello che fa il carico non sappiamo cosa sia oppure posso prendere in termini di leggi di moto del carico e quindi 
+prendere direttamente il segnale proveniente dalla misura della posizione e velocità del carrello
+ed uso quelli per il nodo sommatore con il set point

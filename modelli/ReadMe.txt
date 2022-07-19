@@ -1,0 +1,1 @@
+Entrare dentro spacelib per esegeguire gli script

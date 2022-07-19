@@ -1,0 +1,26 @@
+CC     = "D:\Matlab 2017\sys\lcc64\lcc64\bin\lcc64.exe"
+LD     = "D:\Matlab 2017\sys\lcc64\lcc64\bin\lcclnk64.exe"
+LIBCMD = "D:\Matlab 2017\sys\lcc64\lcc64\bin\lcclib64.exe"
+CFLAGS = -dll -noregistrylookup  -c -Zp8 -DLCC_WIN64 -DMATLAB_MEX_FILE -DMX_COMPAT_32 -nodeclspec 
+LDFLAGS = -s -dll -L"D:\Matlab 2017\sys\lcc64\lcc64\lib64" -entry LibMain -map sfun.map 
+LIBFLAGS = 
+
+OBJECTS = \
+	"homing_ldm_aggiornat_sfun.obj"\
+	"c3_homing_ldm_aggiornat.obj"\
+	"homing_ldm_aggiornat_sfun_registry.obj"\
+	"lccstub.obj"\
+
+INCLUDE_PATH= -I"D:\Matlab 2017\sys\lcc64\lcc64\include64"  -I"D:\Matlab 2017\extern\include"  -I"D:\Matlab 2017\simulink\include"  -I"D:\Matlab 2017\simulink\include\sf_runtime"  -I"D:\Matlab 2017\stateflow\c\mex\include"  -I"D:\Matlab 2017\rtw\c\src"  -I"D:\Stefano\AA Ingegneria Meccanica\anno 5\semestre 2\laboratorio di sistemi meccatronici 2\SM2 tutto aggiornato a 24-11-2021\real time\real time pilotaggio\slprj\_sfprj\homing_ldm_aggiornat\_self\sfun\src" 
+ 
+
+homing_ldm_aggiornat_sfun.mexw64 : $(MAKEFILE) $(OBJECTS)
+	$(LD) $(LDFLAGS) -o homing_ldm_aggiornat_sfun.mexw64 @homing_ldm_aggiornat_sfun.lmko
+homing_ldm_aggiornat_sfun.obj :	"homing_ldm_aggiornat_sfun.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "homing_ldm_aggiornat_sfun.c"
+c3_homing_ldm_aggiornat.obj :	"c3_homing_ldm_aggiornat.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c3_homing_ldm_aggiornat.c"
+homing_ldm_aggiornat_sfun_registry.obj :	"homing_ldm_aggiornat_sfun_registry.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "homing_ldm_aggiornat_sfun_registry.c"
+lccstub.obj :	"D:\Matlab 2017\sys\lcc64\lcc64\mex\lccstub.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "D:\Matlab 2017\sys\lcc64\lcc64\mex\lccstub.c"

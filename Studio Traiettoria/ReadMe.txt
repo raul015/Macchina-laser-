@@ -1,0 +1,7 @@
+Eseguire il Main_Strategia_di_pilotaggio.m
+Per eseguire gli script di interesse che sono 
+
+Strategia_pilotaggio_XY 
+Strategia_pilotaggio_XY_discretizzata
+pospoli_XY_traiettoria
+pospoli_XY_traiettoria_discretizzata

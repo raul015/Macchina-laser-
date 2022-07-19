@@ -1,0 +1,9 @@
+Evaluate_trajectory e Constant_Acceleration_DIM ci servono per descrivere il moto che ci interessa
+in particolare ho una funzione standard: Evaluate
+
+Rappresenta in modo adimensionale una acc. costante
+-> profilo di moto ad accelerazione constante espressa in modo adimensionale dove
+	il formato ci permette di riuscire a definire quale è la forma che voglio
+ 	dare al profilo di moto in accelerazione.
+
+Profili di moto in cui si inizia a velocità 0 e si arriva a velocità 0
